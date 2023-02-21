@@ -10,4 +10,5 @@ The algorithm is based on Dr Rajesh Singh blog with python resources in Physics.
 https://rajeshrinet.github.io/blog/2014/ising-model/
 Adapted by Jordi Faraudo for teaching purposes at UAB
 
-The program employs the numpy and matplotlib libraries 
+The program employs the numpy and matplotlib libraries.
+The code employs python3. The older python2  versio is made available as it is in a dedicated folder.
