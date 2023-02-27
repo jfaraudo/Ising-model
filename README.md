@@ -11,5 +11,5 @@ The code employs python3. The older python2  version is made available as it is 
 
 The algorithm is based on Dr Rajesh Singh blog with notebook resources in Physics. 
 https://rajeshrinet.github.io/blog/2014/ising-model/
-Adapted by Jordi Faraudo for teaching purposes at UAB
+Adapted by Jordi Faraudo for teaching purposes
 
