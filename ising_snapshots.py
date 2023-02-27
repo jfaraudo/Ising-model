@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------
 # INTRODUCTION TO PYTHON2 SESSION
 # May 2018
-# Example 4 program by Jordi Faraudo
+# Example program by Jordi Faraudo
 # Simulation of a sequence of configurations for the 2D Ising model
 # -----------------------------------------------------------------
 #
