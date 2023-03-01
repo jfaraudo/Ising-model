@@ -1,5 +1,5 @@
 # Ising-model
-This is an example of Monte Carlo simulation of the Ising model in python.
+This is an example of Monte Carlo simulation of the Ising model in python, as described in the pdf file.
 
 We have programs for generating configurations by Monte Carlo and for the full simulation of the phase transition, calculating magnitudes as a function of temperature.
 
