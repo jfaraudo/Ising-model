@@ -5,7 +5,7 @@ We have programs for generating configurations by Monte Carlo and for the full s
 
 In the "snapshots" program we generate a number of Monte Carlo configurations and plot them at the screen. The different versions have different levels of output (larger version number, more details). 
 
-The ising program performs a simulation exploring a large number of temperatures in order to identify the phase transition.
+The ising.py program performs a simulation exploring a large number of temperatures in order to identify the phase transition.
 It may require some time to run depending on machine and the number of temperatures sampled in the calculation.
 
 The program employs the numpy and matplotlib libraries.
