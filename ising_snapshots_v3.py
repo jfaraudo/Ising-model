@@ -123,7 +123,7 @@ for i in range(msrmnt):
             M.append(Mag)
 
             #plot certain configurations
-            if t%100 == 0:
+            if t%10 == 0:
                 print('\nMC step=',t,' Energy=',Ene,' M=',Mag)
                 print(config)
                 configPlot(f, config, t, N)
