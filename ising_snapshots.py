@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------
-# INTRODUCTION TO PYTHON2 SESSION
-# May 2018
+# INTRODUCTION TO MONTE CARLO
+# Feb 2023
 # Example program by Jordi Faraudo
 # Simulation of a sequence of configurations for the 2D Ising model
 # -----------------------------------------------------------------
@@ -58,7 +58,7 @@ def configPlot(f, config, i, N, n_):
 #size of the lattice
 N = 64
 #Enter data for the simulation
-temp = float(input("\n Please enter temperature in reduced units (suggestion 0.4): "))
+temp = float(input("\n Please enter temperature in reduced units (suggested examples 0.4 or 1.2 or 2.5): "))
 msrmnt = int(input("\n Enter number of Monte Carlo iterations (suggestion 1000):"))
 #Generate initial condition
 config = 2*np.random.randint(2, size=(N,N))-1
