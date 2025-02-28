@@ -1,4 +1,4 @@
-#Two State Model
+# Two State Model
 
 Monte Carlo simulation of a two state model:
 - Ground state (label s=-1) with energy 0
