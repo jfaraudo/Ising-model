@@ -1,13 +1,11 @@
-# -----------------------------------------------------------------
-# INTRODUCTION TO MONTECARLO SIMULATION
-# Simulation of 2D Ising model
-# May 2018 - updated Feb 2023 
-# -----------------------------------------------------------------
-# 
-# The algorithm is based on Dr Rajesh Singh (Cambridge University) blog with python resources in Physics. 
-# https://rajeshrinet.github.io/blog/2014/ising-model/
-# Adapted by Jordi Faraudo 2018 for teaching purposes
-# please look first to the ising_snapshots.py code
+# --------------------------------------------------------------------
+# INTRODUCTION TO MONTE CARLO WITH PYTHON
+# March 2025
+# Example program by Jordi Faraudo
+# Simulation of an ideal 2 state system
+# Exploration of a range of T
+# ---------------------------------------------------------------------
+# please look first to the two_states_snapshots.py code
 #
 import numpy as np
 from numpy.random import rand
@@ -17,14 +15,15 @@ import matplotlib.pyplot as plt
 ##  BLOCK OF FUNCTIONS USED IN THE MAIN CODE
 #----------------------------------------------------------------------
 
-#Generation of a random initial state for NxN spins
+#Generation of a random initial state for NxN sites with 2 states
 def initialstate(N):   
     ''' generates a random spin configuration for initial condition'''
     state = 2*np.random.randint(2, size=(N,N))-1
     return state
 
-# Here we define the interactions of the model (2D spin Ising model) 
-# and the solution method (Metropolis Monte Carlo) 
+# Function implementing the method (Metropolis Monte Carlo) and model
+#      The state with s=-1 has zero energy 
+#      The state with s=+1 has energy 1
 def mcmove(config, beta):
     '''Monte Carlo move using Metropolis algorithm '''
     for i in range(N):
