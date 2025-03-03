@@ -1,14 +1,10 @@
-# -----------------------------------------------------------------
+# --------------------------------------------------------------------
 # INTRODUCTION TO MONTE CARLO WITH PYTHON
-# May 2018 - Feb 2023
+# March 2025
 # Example program by Jordi Faraudo
-# Simulation of a sequence of configurations for the 2D Ising model
+# Simulation of a sequence of configurations for an ideal 2 state system
 # Calculation of Energy and magnetization of a configuration
-# -----------------------------------------------------------------
-#
-# The algorithm is based on Rajesh Singh (Cambridge University) blog with python resources in Physics.
-# https://rajeshrinet.github.io/blog/2014/ising-model/
-# Adapted by Jordi Faraudo 2018 for teaching purposes
+# ---------------------------------------------------------------------
 #
 # Here we import the numpy mathematical library and the plots library
 # as in the other examples in the course
@@ -18,8 +14,10 @@ from numpy.random import rand
 import matplotlib.pyplot as plt
 
 #
-# Here we define the interactions of the model (2D spin Ising model)
-# and the solution method (Metropolis Monte Carlo)
+# Function implementing the method (Metropolis Monte Carlo) and model
+#      The state with s=-1 has zero energy 
+#      The state with s=+1 has energy 1
+# 
 def mcmove(config, N, beta):
         #Loop with a size equal to spins in the system
         for i in range(N):
@@ -80,8 +78,11 @@ def calcMag(config):
 #size of the lattice
 N = 64
 #Enter data for the simulation
-temp = float(input("\n Please enter temperature in reduced units (suggestion 1.2): "))
-msrmnt = int(input("\n Enter number of Monte Carlo iterations (suggestion 1000):"))
+print("MC Simulation two State system")
+print("------------------------------")
+print("Epsilon = Energy exited state")
+temp = float(input("\n Please enter kT/Epsilon (suggestion 0.5): "))
+msrmnt = int(input("\n Enter number of Monte Carlo (Metropolis) iterations (suggestion 100):"))
 
 #Init Magnetization and Energy
 step=[]
