@@ -10,7 +10,7 @@ It may require some time to run depending on machine and the number of temperatu
 
 The program employs python3 and the numpy and matplotlib libraries.
 
-A description of the Ising model can be found in LibreText [here](https://phys.libretexts.org/Bookshelves/Mathematical_Physics_and_Pedagogy/Computational_Physics_(Chong)/13%3A_The_Markov_Chain_Monte_Carlo_Method/13.02%3A_The_Ising_Model)
+A description of the Ising model can be found in LibreText [here](https://phys.libretexts.org/Bookshelves/Mathematical_Physics_and_Pedagogy/Computational_Physics_(Chong)/13%3A_The_Markov_Chain_Monte_Carlo_Method/13.02%3A_The_Ising_Model).
 Applications of the Ising model outside the domain of magnetism (order-disorder transitions in solids, lattice fluids,...) can be found also in Libretext [here](https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Thermodynamics_and_Statistical_Mechanics_(Arovas)/07%3A_Mean_Field_Theory_of_Phase_Transitions/7.02%3A_Fluids_Magnets_and_the_Ising_Model)
 
 The algorithm is based on Dr Rajesh Singh [blog with notebook resources in Physics.](
